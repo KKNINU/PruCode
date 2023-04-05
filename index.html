@@ -7,10 +7,10 @@
     <h1></h1>
 
     <script>
-      let name = prompt("This is the failover site. Welcome to the Swamp, What is Your name? ('Prince Farquaad', 'Shrek', 'Fiona', 'Donkey', 'Puss in Boots' or 'Prince Charming'. Please enter your name:");
+      let name = prompt("This is the failover site. Welcome to the Swamp, while you're here, you can get random quotes from Shrek characters and impress your friends! If you want to leave the swap just say 'exit'");
       
       if (name === 'Shrek') {
-        alert('Welcome Home!');
+        alert('Stop singing! Well, it's no wonder you don't have any friends!');
       }
       else if (name === 'Fiona') {
         alert("Wait! Sir knight, this'd be our first meeting. Should it not be a wonderful romantic moment?");
@@ -22,13 +22,18 @@
         alert("Pray for mercy, from Puss!");
       }
       else if (name === 'Prince Charming') {
-        alert('This is the part where you run away!\nKeep out of my Swamp!');
+        alert('I shall render his head from his shoulders! I will smite him where he stands!');
       }
       else if (name === 'Prince Farquaad') {
-        alert('Grab your torch and pitchforks!\nKeep out of my Swamp!');
+        alert('Some of you may die, but its a sacrifice I am willing to make!');
       }
+      
+      else if (name === 'exit') {
+        alert('Get out of my swamp!');
+      }  
       else {
-        alert("I'm sorry, I don't know who you are.");
+        alert("I'm sorry, This character doesn't live in the Kindgom of Duloc! Please refresh");
+      
       }
     </script>
   </body>
